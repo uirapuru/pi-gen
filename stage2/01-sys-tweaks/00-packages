@@ -26,7 +26,6 @@ rsync
 htop
 man-db
 policykit-1
-ssh-import-id
 ethtool
 ntfs-3g
 pciutils
@@ -39,3 +38,6 @@ kms++-utils
 python3-venv
 rpi-keyboard-config
 rpi-keyboard-fw-update
+python3-requests
+openssh-client
+openssh-server

@@ -22,3 +22,4 @@ elif [ -d "${ROOTFS_DIR}/var/lib/NetworkManager" ]; then
 		WirelessEnabled=false
 	EOF
 fi
+

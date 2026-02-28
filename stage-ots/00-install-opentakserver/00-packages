@@ -1,0 +1,16 @@
+curl
+python3
+python3-pip
+python3-venv
+rabbitmq-server
+openssl
+nginx
+ffmpeg
+libnginx-mod-stream
+python3-dev
+libpq-dev
+postgresql
+postgresql-contrib
+postgis
+git
+supervisor
