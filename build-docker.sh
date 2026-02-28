@@ -136,7 +136,7 @@ time ${DOCKER} run \
   --name "${DOCKER_CMDLINE_NAME}" \
   --privileged \
   ${PIGEN_DOCKER_OPTS} \
-  --volume "${CONFIG_FILE}":/config:ro \
+  --volume "${CONFIG_FILE}":/pi-gen/config:ro \
   -e "GIT_HASH=${GIT_HASH}" \
   $DOCKER_CMDLINE_POST \
   pi-gen \
