@@ -1,0 +1,7 @@
+[Unit]
+Wants=network.target
+[Service]
+User=tak
+ExecStart=/home/tak/ots/mediamtx/mediamtx /home/tak/ots/mediamtx/mediamtx.yml
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,14 @@
+[Unit]
+Wants=network.target rabbitmq-server.service
+After=network.target rabbitmq-server.service
+Requires=eud_handler eud_handler_ssl cot_parser
+[Service]
+User=tak
+WorkingDirectory=/home/tak/ots
+ExecStart=/home/tak/.opentakserver_venv/bin/opentakserver
+Restart=on-failure
+RestartSec=5s
+StandardOutput=append:/home/tak/ots/logs/opentakserver.log
+StandardError=append:/home/tak/ots/logs/opentakserver.log
+[Install]
+WantedBy=multi-user.target
