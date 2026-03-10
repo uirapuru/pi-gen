@@ -1,5 +1,6 @@
 [Unit]
-Wants=network.target
+Description=MediaMTX
+After=network.target
 [Service]
 User=tak
 ExecStart=/home/tak/ots/mediamtx/mediamtx /home/tak/ots/mediamtx/mediamtx.yml
