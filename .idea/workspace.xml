@@ -5,21 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a200b4b3-2a10-4d4f-9075-85e9975dfa6c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/stage-ots/02-postgresql/files/01-init-ots-db.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stage-ap/10-accesspoint/01-run-chroot.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stage-ap/10-accesspoint/files/etc/hostapd/03-rpi-hostapd.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stage-ap/10-accesspoint/files/etc/hostapd/hostapd.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stage-ap/10-accesspoint/files/etc/systemd/system/wifi-ap.service" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stage-ap/10-accesspoint/files/usr/local/bin/start-wifi-ap.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stage-ap/prerun.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stage-ots/01-ots/00-packages" beforeDir="false" afterPath="$PROJECT_DIR$/stage-ots/00-packages/00-packages" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stage-ots/02-postgresql/00-packages" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stage-ots/02-postgresql/01-run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/stage-ots/02-postgresql/01-run.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stage-ots/03-mumble/00-packages" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stage-ots/04-mediamtx/00-packages" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stage-ots/04-mediamtx/01-run-chroot.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stage-ots/04-mediamtx/files/etc/systemd/system/mediamtx.service" beforeDir="false" afterPath="$PROJECT_DIR$/stage-ots/04-mediamtx/files/mediamtx.service" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stage-ots/04-mediamtx/files/home/tak/ots/mediamtx/mediamtx.yml" beforeDir="false" afterPath="$PROJECT_DIR$/stage-ots/04-mediamtx/files/mediamtx.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stage-ots/05-certs/00-packages" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stage-ots/06-nginx/00-packages" beforeDir="false" afterPath="$PROJECT_DIR$/stage-ots/06-nginx/00-packages" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stage-ots/09-rabbitmq/00-packages" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stage-ots/10-accesspoint/00-packages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage-ots/01-ots/01-run-chroot.sh" beforeDir="false" afterPath="$PROJECT_DIR$/stage-ots/01-ots/01-run-chroot.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage4/00-install-packages/00-packages" beforeDir="false" afterPath="$PROJECT_DIR$/stage4/00-install-packages/00-packages" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +28,11 @@
       <entry key="_/home/uirapuru/Pulpit/pi-gen" value="3AGXxFsM5ZpEm2Uc7dlkFBnQUBV" />
     </persistenceIdMap>
   </component>
+  <component name="CopilotUserSelectedChatMode">
+    <option name="chatModeId" value="Agent" />
+  </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="179794" />
+    <option name="cachedIndexableFilesCount" value="180139" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="Git.Settings">
@@ -63,38 +60,38 @@
     <option name="showLibraryContents" value="true" />
     <option name="useFileNestingRules" value="false" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;SHELLCHECK.PATH&quot;: &quot;/home/uirapuru/.local/share/JetBrains/PhpStorm2025.3/Shell Script/shellcheck&quot;,
-    &quot;Shell Script.run-build-docker.executor&quot;: &quot;Run&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;newots-bookworm-arm64&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/uirapuru/Pulpit/pi-gen/stage-ots/02-postgresql&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.scopes&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHELLCHECK.PATH": "/home/uirapuru/.local/share/JetBrains/PhpStorm2025.3/Shell Script/shellcheck",
+    "Shell Script.run-build-docker.executor": "Run",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "newots-bookworm-arm64",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/home/uirapuru/Pulpit/pi-gen",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/stage-ots/02-postgresql" />
       <recent name="$PROJECT_DIR$/stage-ots/01-ots" />
       <recent name="$PROJECT_DIR$/stage-ots" />
       <recent name="$PROJECT_DIR$/stage-ots/09-rabbitmq" />
-      <recent name="$PROJECT_DIR$/stage-ots/08-rabbitmq/files/etc/rabbitmq" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/stage-ots/00-packages" />
@@ -147,6 +144,10 @@
       <workItem from="1772830877897" duration="4923000" />
       <workItem from="1772835954083" duration="41000" />
       <workItem from="1772836013328" duration="20885000" />
+      <workItem from="1773248328496" duration="376000" />
+      <workItem from="1773248724242" duration="566000" />
+      <workItem from="1773249298416" duration="503000" />
+      <workItem from="1773249993351" duration="370000" />
     </task>
     <servers />
   </component>

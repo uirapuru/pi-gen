@@ -1,5 +1,7 @@
 #!/bin/bash -e
 
+apt-get purge -y apt-listchanges || true
+
 mkdir -p /home/tak/ots
 
 python3 -m venv --system-site-packages /home/tak/.opentakserver_venv
